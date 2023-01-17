@@ -1,9 +1,9 @@
 import './App.css';
 import React from "react";
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
-import Header from './components/Header'
-import Home from './components/Home'
-import Coin from './components/Coin';
+import Header from './components/header/Header'
+import Home from './pages/Home'
+import Coin from './pages/Coin';
 function App() {
   return (
     <BrowserRouter>
