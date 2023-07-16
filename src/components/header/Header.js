@@ -17,7 +17,6 @@ const Header = () => {
   });
   return (
     <ThemeProvider theme={darkTheme}>
-
       <AppBar color='transparent' position='static'>
         <Container>
           <Toolbar>

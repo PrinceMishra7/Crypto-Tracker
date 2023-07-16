@@ -5,7 +5,7 @@ const CryptoState = ({children}) => {
   const [symbol, setSymbol] = useState("₹");
   useEffect(() => {
     if(currency==="INR"){
-      setSymbol("₹"); 
+      setSymbol("₹");
     } 
     else if(currency==="USD") {
       setSymbol("$");

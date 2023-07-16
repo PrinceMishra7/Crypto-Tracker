@@ -24,10 +24,14 @@ const Carousel = () => {
   const [trending, setTrending] = useState([])
   const { currency, symbol } = useContext(CryptoContext)
   const fetchTrendingCoins = async () => {
-    const response = await fetch(TrendingCoins(currency))
+    try {
+      const response = await fetch(TrendingCoins(currency))
     const json = await response.json();
-    console.log(json);
     setTrending(json)
+    } catch (error) {
+      console.log(error.message);
+    }
+    
   }
   const responsive = {
     0: {
@@ -74,7 +78,7 @@ const Carousel = () => {
                 {coin.symbol}
                 &nbsp;
                 <span  style={{
-              color: profit==true ? "rgb(14, 203, 129)" : "red",
+              color: profit===true ? "rgb(14, 203, 129)" : "red",
               fontWeight: 500,
             }}>
               {

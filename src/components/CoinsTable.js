@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext} from 'react'
 import { CoinList } from '../config/api'
-import { LinearProgress, TableCell, TableRow, Paper, TextField, Container, Toolbar, Typography } from '@mui/material';
+import { LinearProgress, TableCell, TableRow, Paper, TextField, Container,  Typography } from '@mui/material';
 import { Table, TableHead, TableBody, TableContainer,Pagination } from '@mui/material';
 import CryptoContext from './context/CryptoContext'
 import { useNavigate } from 'react-router-dom';
@@ -14,11 +14,15 @@ const CoinsTable = () => {
   const { currency, symbol } = useContext(CryptoContext)
   const fetchCoin = async () => {
     setLoading(true);
+    try {
     const response = await fetch(CoinList(currency));
     const json = await response.json()
-    console.log(json)
     setCoins(json)
     setLoading(false)
+    } catch (error) {
+      console.log(error.message);
+    }
+    
   }
   function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -74,9 +78,11 @@ const CoinsTable = () => {
                             color: "black",
                             fontWeight: "700",
                             fontFamily: "Montserrat",
+                            
                           }}
                           key={head}
-                          align={head === "Coin" ? "" : "right"}
+                          align={head === "Coin" ? "" :head==="Price"?"center": "right"}
+                         
                         >
                           {head}
                         </TableCell>
