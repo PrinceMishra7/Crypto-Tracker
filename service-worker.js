@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/precache-manifest.bb3c61552c138e9a99e8439f1d84d852.js"
+  "/Crypto-Tracker/precache-manifest.d31e36575fed5c204e540c5cdf444122.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/index.html", {
+workbox.routing.registerNavigationRoute("/Crypto-Tracker/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

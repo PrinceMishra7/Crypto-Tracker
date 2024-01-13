@@ -1,15 +1,15 @@
 {
-  "main.css": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/static/css/main.94f27aba.chunk.css",
-  "main.js": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/static/js/main.18273eb1.chunk.js",
-  "main.js.map": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/static/js/main.18273eb1.chunk.js.map",
-  "runtime~main.js": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/static/js/runtime~main.bf40fd1e.js",
-  "runtime~main.js.map": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/static/js/runtime~main.bf40fd1e.js.map",
-  "static/css/2.32be8607.chunk.css": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/static/css/2.32be8607.chunk.css",
-  "static/js/2.65e391e1.chunk.js": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/static/js/2.65e391e1.chunk.js",
-  "static/js/2.65e391e1.chunk.js.map": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/static/js/2.65e391e1.chunk.js.map",
-  "index.html": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/index.html",
-  "precache-manifest.bb3c61552c138e9a99e8439f1d84d852.js": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/precache-manifest.bb3c61552c138e9a99e8439f1d84d852.js",
-  "service-worker.js": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/service-worker.js",
-  "static/css/2.32be8607.chunk.css.map": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/static/css/2.32be8607.chunk.css.map",
-  "static/css/main.94f27aba.chunk.css.map": "%3Chttps://PrinceMishra7.github.io/Crypto-Tracker%3E/static/css/main.94f27aba.chunk.css.map"
+  "main.css": "/Crypto-Tracker/static/css/main.94f27aba.chunk.css",
+  "main.js": "/Crypto-Tracker/static/js/main.18273eb1.chunk.js",
+  "main.js.map": "/Crypto-Tracker/static/js/main.18273eb1.chunk.js.map",
+  "runtime~main.js": "/Crypto-Tracker/static/js/runtime~main.2a94b877.js",
+  "runtime~main.js.map": "/Crypto-Tracker/static/js/runtime~main.2a94b877.js.map",
+  "static/css/2.32be8607.chunk.css": "/Crypto-Tracker/static/css/2.32be8607.chunk.css",
+  "static/js/2.65e391e1.chunk.js": "/Crypto-Tracker/static/js/2.65e391e1.chunk.js",
+  "static/js/2.65e391e1.chunk.js.map": "/Crypto-Tracker/static/js/2.65e391e1.chunk.js.map",
+  "index.html": "/Crypto-Tracker/index.html",
+  "precache-manifest.d31e36575fed5c204e540c5cdf444122.js": "/Crypto-Tracker/precache-manifest.d31e36575fed5c204e540c5cdf444122.js",
+  "service-worker.js": "/Crypto-Tracker/service-worker.js",
+  "static/css/2.32be8607.chunk.css.map": "/Crypto-Tracker/static/css/2.32be8607.chunk.css.map",
+  "static/css/main.94f27aba.chunk.css.map": "/Crypto-Tracker/static/css/main.94f27aba.chunk.css.map"
 }
