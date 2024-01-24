@@ -20,7 +20,10 @@ const CoinInfo = ({coin}) => {
   const fetchData=async()=>{
       console.log(id);
       try {
-        const response=await fetch(HistoricalChart(id,days,currency))
+        const response=await fetch(HistoricalChart(id,days,currency),{
+          method:'GET',
+          mode:'cors',
+        })
         const json=await response.json();
         setFlag(true)
         console.log(json.prices)

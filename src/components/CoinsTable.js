@@ -15,7 +15,10 @@ const CoinsTable = () => {
   const fetchCoin = async () => {
     setLoading(true);
     try {
-    const response = await fetch(CoinList(currency));
+    const response = await fetch(CoinList(currency),{
+      method:'GET',
+      mode:'cors',
+    });
     const json = await response.json()
     setCoins(json)
     setLoading(false)

@@ -17,7 +17,10 @@ const Coin = () => {
   const [cprice, setCprice] = useState(0)
   const [mcap, setMcap] = useState(0)
   const fetchCoin = async () => {
-    const response = await fetch(SingleCoin(id));
+    const response = await fetch(SingleCoin(id),{
+      method:'GET',
+      mode:'cors',
+    });
     const json = await response.json();
     setDesc(json.description.en.split(". ")[0]);
     setImgUrl(json.image.large);

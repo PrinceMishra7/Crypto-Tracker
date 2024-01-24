@@ -25,7 +25,10 @@ const Carousel = () => {
   const { currency, symbol } = useContext(CryptoContext)
   const fetchTrendingCoins = async () => {
     try {
-      const response = await fetch(TrendingCoins(currency))
+      const response = await fetch(TrendingCoins(currency),{
+        method:'GET',
+        mode:'cors',
+      })
     const json = await response.json();
     setTrending(json)
     } catch (error) {
